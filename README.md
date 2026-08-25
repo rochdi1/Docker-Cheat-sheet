@@ -52,6 +52,8 @@
 
         docker rmi <image_id>: Remove a Docker image.
 
+        docker rmi $(docker images -a -q): Remove all Docker images.
+
     Docker Run Commands:
 
         docker run -d <image_name>: Run a Docker image as a container in detached mode.
