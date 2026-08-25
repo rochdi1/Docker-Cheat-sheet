@@ -149,3 +149,26 @@
         docker stats: Display a live stream of resource usage by containers.
 
         docker stats <container_name>: Display the resource usage of a specific container.
+
+***Entwickler:***
+
+1- Entwicklung (code Anpassung)
+
+2- docker rmi my-java-image
+
+3- docker build -t my-java-image .
+
+4- docker tag my-java-image rochdi1/my-java-image:v5.0
+
+5- docker login
+
+6- docker push rochdi1/my-java-image:v5.0
+
+---
+
+***Kunde:***
+
+1- docker pull rochdi1/my-java-image:v5.0
+
+2- docker run rochdi1/my-java-image:v5.0
+
